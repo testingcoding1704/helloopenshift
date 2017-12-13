@@ -1,0 +1,15 @@
+# JetBrains IDEs
+## Directory-based project format
+.idea/
+## File-based project format
+*.ipr
+*.iws
+*.iml
+
+# Eclipse IDEs
+.classpath
+.project
+.settings/
+
+# Maven
+target/
