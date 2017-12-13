@@ -11,6 +11,6 @@ public class HelloOpenShiftController {
     @RequestMapping("hello")
     public String sayHello() throws UnknownHostException {
         String hostName = InetAddress.getLocalHost().getHostName();
-        return ("Hello version: 0; from host: " + hostName);
+        return ("Hello version: 2; from host: " + hostName);
     }
 }
